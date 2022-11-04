@@ -45,6 +45,7 @@ div {
   width: 100%;
   margin-left: 0;
   display: inline-block;
+  height: fit-content
 }
 
 .founders-info {
@@ -138,6 +139,12 @@ nav a:hover {
   text-align: -webkit-center;
 }
 
+.t-logo-bottom {
+  position: relative;
+  bottom: 10px;
+  display: inline-block;
+}
+
 .template-spacing {
   display: flex;
   max-width: 100%;
@@ -180,29 +187,19 @@ nav a:hover {
 
 .paragraph-setting {
   text-align: -webkit-center;
-  width: 85%;
+  width: 100%;
 }
 
 .paragraph-setting-2 {
-text-align: -webkit-center;
-width: 80%;
-margin-top: 0px;
-top: -60px;
-position: relative;
+  text-align: -webkit-center;
+  width: 100%;
+  height: min-content;
+  position: relative;
+  top: -30px;
 }
 
 .div-centering {
   text-align: -webkit-center;
-}
-
-section > p {
-  height: 100px;
-  text-align: -webkit-center;
-  display: inline-block;
-  min-height: fit-content;
-  width: 80%;
-  top: 30px;
-  position: relative;
 }
 
 p {
@@ -211,9 +208,9 @@ p {
 }
 
 .caller-div-area {
-  display:block;
-  height: 700px;
+  display: block;
   margin-left: 0px;
+  height: fit-content;
 }
 
 .section-width {
@@ -235,10 +232,10 @@ p {
 
 .solana-callers {
   position: relative;
-  border: 6px;
+  border: 5px;
   border-color: white;
   border-style: dashed;
-  border-radius: 56px;
+  border-radius: 45px;
   display: inline-block;
   margin: 5px;
   padding: 5px;
@@ -267,10 +264,7 @@ p {
   padding: 5px;
 }
 
-.profit-spacing{
-  margin-top: 30px;
-  border-top-width: 10px;
-}
+
 
 .profit-list {
   list-style: none;
@@ -339,11 +333,7 @@ div > iframe {
   right: -15px;
 }
 
-.future-heading {
-  position: relative;
-  right: 175px;
-  top: 25px;
-}
+
 
 .different-marketplace-text {
   margin-left: 563px;
@@ -402,6 +392,7 @@ div > iframe {
 
 .future-marketplace {
   height: 380px;
+  display: block;
 }
 
 .future-list {
@@ -421,15 +412,15 @@ a {
 }
 
 .footer-area {
-  background-color: midnightblue;
-  position: fixed;
-  bottom: 0;
   width: 100%;
-  left: 0px;
+  background: midnightblue;
+  border-radius: 0px 0px 90px 90px;
+  display: inline-block;
 }
 
 .future-div {
 height: 610px;
+display: inline-block;
 }
 
 
