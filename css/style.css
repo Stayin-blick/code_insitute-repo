@@ -185,15 +185,7 @@ nav a:hover {
 }
 
 
-.paragraph-setting {
-  text-align: -webkit-center;
-  width: 100%;
-}
-
 .paragraph-setting-2 {
-  text-align: -webkit-center;
-  width: 100%;
-  height: min-content;
   position: relative;
   top: -30px;
 }
