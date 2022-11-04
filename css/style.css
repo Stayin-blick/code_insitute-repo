@@ -1,3 +1,6 @@
+
+/* styles used repeatively */
+
 html {
   min-width: min-content;
   width: 100%;
@@ -18,6 +21,79 @@ body {
   vertical-align: middle;
   }
 
+.webpage-heading {  
+  height: 100px;
+  display: inline-block;
+  border-bottom: double;
+  margin: 50px 0 70px 0;
+  width: 100%;
+  text-align: -webkit-center
+}
+
+div {
+  text-align: -webkit-center;
+  width: 100%;
+  margin-left: 0;
+  display: inline-block;
+  height: fit-content
+}
+
+p {
+  text-align: -webkit-center;
+  width: 80%;
+}
+
+
+/* heading section*/
+
+.heading-bar {
+  background-color: black;
+  border: 10px solid midnightblue;
+  border-radius: 0px 0px 90px 90px;
+  box-shadow: 1px 10px 1px #ccc;
+  width: 100%;
+  z-index: 9999;
+  display: inline-block;
+  height: 320px;
+}
+
+.logo-area {
+  height: 250px
+} 
+.logo {
+  height: 235px
+}
+  .logo {
+    position:relative;
+    width:100%;
+    height: 100px;
+  }
+
+.audio-div {
+  top: 69px;
+  position: relative;
+  z-index: 1;
+  height: 0px;
+  opacity: 0.25;
+}
+audio {
+  z-index: 1;
+  position: relative;
+  top: -395px;
+  left: -425px;
+  height: 25px;
+  width: 200px;
+}
+
+.play-me {
+  position: relative;
+  top: -420px;
+  left: -415px;
+}
+
+
+/* nav css*/
+
  nav {
   width: 90%;
   height: 42px;
@@ -32,55 +108,6 @@ body {
   position: relative;
   top: -120px;
  } 
-
-.logo-area {
-  height: 250px
-} 
-.logo {
-  height: 235px
-}
-
-div {
-  text-align: -webkit-center;
-  width: 100%;
-  margin-left: 0;
-  display: inline-block;
-  height: fit-content
-}
-
-.founders-info {
-  margin-left:10px;
-}
-
-i {
-  position: relative;
-  left: 0px;
-  font-size: 2em;
-}
-
-.chase-sim {
-  bottom: -29px;
-  position: relative;
-}
-
-/* nav css code */
-
-.heading-bar {
-  background-color: black;
-  border: 10px solid midnightblue;
-  border-radius: 0px 0px 90px 90px;
-  box-shadow: 1px 10px 1px #ccc;
-  width: 100%;
-  z-index: 9999;
-  display: inline-block;
-  height: 320px;
-}
-
-  .logo {
-    position:relative;
-    width:100%;
-    height: 100px;
-  }
 
   nav ul {
     margin-top: 0px;
@@ -114,6 +141,19 @@ nav a:hover {
     color:black;
   }
 
+
+/* team styling */
+
+.founders-info {
+  margin-left:10px;
+}
+
+i {
+  position: relative;
+  left: 0px;
+  font-size: 2em;
+}
+
 .founders-title {
    text-align: center;
   }
@@ -130,14 +170,7 @@ nav a:hover {
   top: 10px;
   bottom: 10px;
 }
-.webpage-heading {  
-  height: 100px;
-  display: inline-block;
-  border-bottom: double;
-  margin: 50px 0 70px 0;
-  width: 100%;
-  text-align: -webkit-center;
-}
+
 
 .t-logo-bottom {
   position: relative;
@@ -172,7 +205,6 @@ nav a:hover {
     margin: 5px;
 }
 
-
 .founders-centering {
   margin:0;
   margin-top: 20px;
@@ -184,29 +216,12 @@ nav a:hover {
   padding: 10px;
 }
 
-.paragraph-setting-2 {
-  position: relative;
-  top: -30px;
-}
-
-.div-centering {
-  text-align: -webkit-center;
-}
-
-p {
-  text-align: -webkit-center;
-  width: 80%;
-}
+/* profits */
 
 .caller-div-area {
   display: block;
   margin-left: 0px;
   height: fit-content;
-}
-
-.section-width {
-  width: 100%;
-  margin-left: 0;
 }
 
 .callers-div {
@@ -255,13 +270,11 @@ p {
   padding: 5px;
 }
 
-
-
 .profit-list {
   list-style: none;
-  padding-left: 0%
-  ;
+  padding-left: 0% ;
 }
+
 .profit-list-section { 
   display: flex;
   max-width: 1000px;
@@ -320,8 +333,8 @@ div > iframe {
 .rarible {
   width: 550px;
   position: relative;
-  top: 40px;
-  right: -50px;
+  top: 19px;
+  right: -15px;
 }
 
 
@@ -402,23 +415,18 @@ a {
   color: inherit;
 }
 
-.footer-area {
-  width: 100%;
-  background: midnightblue;
-  border-radius: 0px 0px 90px 90px;
-  display: inline-block;
-}
-
 .future-div {
 height: 610px;
 display: inline-block;
 }
 
+/* footer area */
 
-body::-webkit-scrollbar {
-  display: none;
-}
-
+.footer-area {
+  width: 100%;
+  background: midnightblue;
+  border-radius: 0px 0px 90px 90px;
+  display: inline-block;
 .up-arrow{
   position:relative;
   right:5px;
@@ -429,27 +437,4 @@ body::-webkit-scrollbar {
   right: -490px;
 top: -131px;
 font-size: 3.5em;
-}
-
-.audio-div {
-  top: 69px;
-  position: relative;
-  z-index: 1;
-  height: 0px;
-  opacity: 0.25;
-}
-
-audio {
-  z-index: 1;
-  position: relative;
-  top: -395px;
-  left: -425px;
-  height: 25px;
-  width: 200px;
-}
-
-.play-me {
-  position: relative;
-  top: -420px;
-  left: -415px;
 }
