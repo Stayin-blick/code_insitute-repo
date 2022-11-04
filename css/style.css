@@ -30,11 +30,11 @@ body {
   left: 0px;
   bottom: 0px;
   position: relative;
-  top: -75px;
+  top: -120px;
  } 
 
 .logo-area {
-  height: 325px
+  height: 250px
 } 
 .logo {
   height: 235px
@@ -44,6 +44,7 @@ div {
   text-align: -webkit-center;
   width: 100%;
   margin-left: 0;
+  display: inline-block;
 }
 
 .founders-info {
@@ -133,8 +134,8 @@ nav a:hover {
   display: inline-block;
   border-bottom: double;
   margin: 50px 0 70px 0;
-  text-align: center;    
-  width:100%;
+  width: 100%;
+  text-align: -webkit-center;
 }
 
 .template-spacing {
@@ -179,7 +180,7 @@ nav a:hover {
 
 .paragraph-setting {
   text-align: -webkit-center;
-  width: 80%;
+  width: 85%;
 }
 
 .paragraph-setting-2 {
@@ -197,7 +198,11 @@ position: relative;
 section > p {
   height: 100px;
   text-align: -webkit-center;
-  display: contents;
+  display: inline-block;
+  min-height: fit-content;
+  width: 80%;
+  top: 30px;
+  position: relative;
 }
 
 p {
